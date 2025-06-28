@@ -1,0 +1,36 @@
+@use './variables';
+
+
+// reset
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: variables.$font-base;
+    font-size: variables.$font-size-base;
+    background-color: variables.$color-bg;
+    color: variables.$color-text;
+    line-height: 1.5;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-family: inherit;
+}
